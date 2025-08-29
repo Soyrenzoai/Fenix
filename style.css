@@ -7,6 +7,7 @@ body {
   /* background-color: #1a1d28;*/
   font-family: 'Roboto', sans-serif;
   color: #f0f0f0;
+  width: 100%;
 }
 
 .timer-container {
