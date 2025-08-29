@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  background-color: #1a1d28;
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+}
+
+.timer-container {
+  background-color: #2c3140;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+.time-display {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 25px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.preset-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.preset-btn {
+  background-color: #434a5e;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.preset-btn:hover {
+  background-color: #5a637c;
+  transform: translateY(-3px);
+}
+
+.main-controls {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.control-btn {
+  background-color: #3b82f6; /* Un azul para destacar */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.control-btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+#resetBtn {
+  background-color: #858c9f;
+  box-shadow: 0 4px 15px rgba(133, 140, 159, 0.2);
+}
+
+#resetBtn:hover {
+  background-color: #6c7385;
+}
